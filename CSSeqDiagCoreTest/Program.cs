@@ -17,8 +17,8 @@ namespace CSAc4yEntityLibraryTester
     {
         static void Main(string[] args)
         {
-            Ac4ySDSequenceEntityMethods ac4YSDSequenceEntityMethods = new Ac4ySDSequenceEntityMethods();
-            Ac4ySDSequencePersistentService ac4YSDSequencePersistentService = new Ac4ySDSequencePersistentService();
+            Ac4ySDSequenceEntityMethods ac4YSDSequenceEntityMethods = new Ac4ySDSequenceEntityMethods("Ac4ySD4", "manager", "Manager99");
+            //Ac4ySDSequencePersistentService ac4YSDSequencePersistentService = new Ac4ySDSequencePersistentService();
 
             Ac4ySDSequence sequence = new Ac4ySDSequence()
             {
